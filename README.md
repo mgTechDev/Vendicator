@@ -94,23 +94,23 @@ The MVP per client expectations of the app is to be able to see itinerary events
 
 App Overview:
 <br />
-
-<img src="./vendicator/app/assets/Voverview.gif" width="200">
+<img src="./vendicator/app/assets/Voverview.gif" width="300">
 
 App Categories:
-<img src="./vendicator/app/assets/Vcategories.gif" width="200">
+<br />
+<img src="./vendicator/app/assets/Vcategories.gif" width="300">
 
 Vendors:
 <br />
-<img src="./vendicator/app/assets/Vvendors.gif" width="200">
+<img src="./vendicator/app/assets/Vvendors.gif" width="300">
 
 Map:
 <br />
-<img src="./vendicator/app/assets/Vmaps.gif" width="200">
+<img src="./vendicator/app/assets/Vmaps.gif" width="300">
 
 Logout:
 <br />
-<img src="./vendicator/app/assets/Vlogout.gif" width="200">
+<img src="./vendicator/app/assets/Vlogout.gif" width="300">
 
 # Workflow and Key Lessons
 
