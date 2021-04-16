@@ -1,4 +1,4 @@
-# vendicator2
+# Vendicator
 
 <p align="center">
   <a href="https://github.com/gabinochacon8/Vendicator2">
