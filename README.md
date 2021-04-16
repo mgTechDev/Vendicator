@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Safe-Sojourns/travel-bug">
-    <img src="./travel_bug/app/screens/assets/ladybug.png" alt="Logo" width="90" height="90">
+    <img src="./vendicator/app/assets/myLogo.png" alt="Logo" width="90" height="90">
   </a>
 </p>
 
