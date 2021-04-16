@@ -27,47 +27,48 @@ function Vendor({index, main, vendMap, vend, favorites, user}) {
   return (
     <SafeAreaView>
       <View style={styles.aboveBar}>
-      <View>
-        <ScrollView
-          horizontal={true}
-          contentContainerStyle={{
-            ...styles.scrollView,
-            width: `${390 * intervals}%`,
-          }}
-          showsHorizontalScrollIndicator={true}
-          scrollEventThrottle={200}
-          decelerationRate="fast"
-          pagingEnabled
-          style={styles.scroll}
-          >
-          {data.vendors[index].photos.map((photo, idx) => {
-            return <Image source={{uri: photo}} style={styles.image} />;
-          })}
-        </ScrollView>
-        <Image />
-      </View>
-      <View>
         <View>
-          {/* <Text style={styles.h3}>Vendor Name:</Text> */}
-          <Text style={styles.h1}>{data.vendors[index].name}</Text>
+          <ScrollView
+            horizontal={true}
+            contentContainerStyle={{
+              ...styles.scrollView,
+              width: `${390 * intervals}%`,
+            }}
+            showsHorizontalScrollIndicator={true}
+            scrollEventThrottle={200}
+            decelerationRate="fast"
+            pagingEnabled
+            style={styles.scroll}>
+            {data.vendors[index].photos.map((photo, idx) => {
+              return (
+                <Image key={idx} source={{uri: photo}} style={styles.image} />
+              );
+            })}
+          </ScrollView>
+          <Image />
         </View>
         <View>
-          {/* <Text style={styles.h3}>Slogan:</Text> */}
-          <Text style={styles.h2}>{data.vendors[index].slogan}</Text>
+          <View>
+            {/* <Text style={styles.h3}>Vendor Name:</Text> */}
+            <Text style={styles.h1}>{data.vendors[index].name}</Text>
+          </View>
+          <View>
+            {/* <Text style={styles.h3}>Slogan:</Text> */}
+            <Text style={styles.h2}>{data.vendors[index].slogan}</Text>
+          </View>
+          <View>
+            {/* <Text style={styles.h3}>Mobility:</Text> */}
+            <Text style={styles.h2}>{data.vendors[index].description}</Text>
+          </View>
+          <View>
+            {/* <Text style={styles.h3}>Location:</Text> */}
+            <Text style={styles.h3}>{data.vendors[index].mobilityType}</Text>
+          </View>
+          <View>
+            {/* <Text style={styles.h3}>Description:</Text> */}
+            <Text style={styles.h3}>{data.vendors[index].locationType}</Text>
+          </View>
         </View>
-        <View>
-          {/* <Text style={styles.h3}>Mobility:</Text> */}
-          <Text style={styles.h2}>{data.vendors[index].description}</Text>
-        </View>
-        <View>
-          {/* <Text style={styles.h3}>Location:</Text> */}
-          <Text style={styles.h3}>{data.vendors[index].mobilityType}</Text>
-        </View>
-        <View>
-          {/* <Text style={styles.h3}>Description:</Text> */}
-          <Text style={styles.h3}>{data.vendors[index].locationType}</Text>
-        </View>
-      </View>
       </View>
       <View style={styles.bar}>
         <BottomBar
@@ -83,7 +84,7 @@ function Vendor({index, main, vendMap, vend, favorites, user}) {
 }
 const styles = StyleSheet.create({
   aboveBar: {
-    height: '95%'
+    height: '95%',
   },
   scroll: {},
   image: {
@@ -101,11 +102,9 @@ const styles = StyleSheet.create({
   h3: {
     fontSize: 8,
     padding: 2,
-    paddingLeft: 10
+    paddingLeft: 10,
   },
-  bar: {
-
-  }
+  bar: {},
 });
 
 export default Vendor;

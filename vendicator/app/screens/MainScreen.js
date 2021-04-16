@@ -29,7 +29,7 @@ function MainScreen({
   const display = () => {
     setCategoryView(!categoryView);
   };
-  console.log(favorites)
+  
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.topBar}>
