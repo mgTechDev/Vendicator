@@ -30,11 +30,10 @@ Vendicator is for micro sellers who don't get a lot of recognition. With Vendica
 Some unexpected challenges included:
 
 <ul>
-<li>Being able to use buttons to move from screen to screen while also having a tab navigator proved challenging within the restrictions of React Navigation</li>
-<li>Handling state and context with authentication without triggering infinite re-renders</li>
-<li>Challenges with search capabilities with Google search auto-complete</li>
+<li>Connecting all of the tabs in the bottom bar without using a navigator</li>
+<li>Using google maps api and getting map data integrated/li
 <li>Finding ways to solve technical challenges without continuously downloading additional dependencies</li>
-<li>Understanding the flow of communication through web sockets and coordinating with database persistence</li>
+<li>The image carousel within the individual vendors</li>
 </ul>
 
 # User Stories
