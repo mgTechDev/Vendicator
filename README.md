@@ -11,7 +11,6 @@
 [Gabe Chacon](https://github.com/gabinochacon8 "Gabe Chacon")
 
 # Introduction
-
 Vendicator is for micro sellers who don't get a lot of recognition. With Vendicator a vendor can indicate where they are currently located. Do you want an elote but dont know where to find one? Are you on a hunt for a yard sale on a Sunday morning? Want to workout with a personal trainer last minute? Looking for flowers for your sweetheart? Well With Vendicator you can find a vendor near you, and their exact location!
 
 # Tech stack
